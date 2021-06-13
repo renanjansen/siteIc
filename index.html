@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Índice de conicidade</title>
-  <link rel="stylesheet" href="css/principal.css">
-  <script src="principal.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Índice de conicidade</title>
+<link rel="stylesheet" href="css/principal.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
 </head>
 <body>
-  <header id="cabecalho" ></header>
-  <main id="apresentacao">
-    <h2>Você já ouviu falar em Índice de conicidade ?</h2>
+<header id="cabecalho" ></header>
+<div class="conteiner-fluid" id="apresentacao">
+<h2>Você já ouviu falar em Índice de conicidade ?</h2>
 <p>A distribuição da gordura no corpo é um aspecto que tem despertado atenção nas pesquisas sobre obesidade, visto que a incidência de inúmeras doenças crônicas é frequente em pessoas obesas, porém, quando a obesidade está centralizada na região abdominal as repercussões negativas, tanto de ordem metabólica quanto cardiovascular, são mais significativas.</p>
 <p>Há um consenso de que a obesidade abdominal, por sua vez, está relacionada com a quantidade de tecido adiposo visceral, e é considerada fator de risco independente para o desenvolvimento de doenças cardiovasculares.</p>
 <p> A gordura visceral é metabolicamente mais ativa do que a gordura subcutânea e está estreitamente correlacionada com a resistência à insulina.</p>
@@ -19,25 +21,26 @@
 <p>O índice de conicidade serve para avaliação da distribuição do peso corporal, com base nas medidas do próprio peso, estatura e circunferência da cintura. É um importante indicador de saúde, usado para o auxílio na possibilidade do desenvolvimento de risco cardiovascular. Utilizando como variáveis o peso, a estatura e a circunferência da cintura, o 
 IC foi fundamentado na idéia de que pessoas que acumulam gordura em volta da região central do tronco têm a forma do corpo parecida com um duplo cone, descritos como dois cones com uma base comum, enquanto que aquelas com menor quantidade de gordura na região central teriam aparência de um cilindro.
 (fonte:)</p>
-  <div class="teste">
-    <form  name='ic' id="ic " method="post" action='index.html'>
-      <p>Informe seu sexo:</p>
-      <input name="genero" type="radio" id="homem" value="Homem"><p>Homem</p>
-      <input name="genero" type="radio" id="Mulher" value="Mulher"><p>Mulher</p>-->
-      <p>Digite o seu peso:</p>
-      <input name="peso" type="number">
-      <p>Digite a sua altura:</p>
-      <input name="altura" type="floats">
-      <p>Digite a media da sua cintura:</p>
-      <input name="cintura" type="number"><br><br>
-      <input type="button" value="Calcula IC" onclick="calculaIc()">
-    </form>
-  </div><br><br>
-  <div id="resultado"></div>
-  
-  </main>
-  <footer id="rodape"></footer>
+<div class="teste">
+<form  name='ic' id="ic " method="post" action='index.html'>
+<p>Informe seu sexo:</p>
+<input name="genero" type="radio" id="homem" value="Homem"><p>Homem</p>
+<input name="genero" type="radio" id="Mulher" value="Mulher"><p>Mulher</p>-->
+<p>Digite o seu peso:</p>
+<input name="peso" type="number">
+<p>Digite a sua altura:</p>
+<input name="altura" type="floats">
+<p>Digite a media da sua cintura:</p>
+<input name="cintura" type="number"><br><br>
+<input type="button" value="Calcula IC" onclick="calculaIc()">
+</form>
+</div><br><br>
+<div id="resultado"></div>
 
-  
+</div>
+<footer id="rodape"></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<script src="principal.js"></script>
 </body>
 </html>
